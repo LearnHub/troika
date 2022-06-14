@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.47.0](https://github.com/protectwise/troika/compare/v0.46.3...v0.47.0) (2022-06-14)
+
+
+### Features
+
+* **troika-three-text:** add 'top-cap' and 'top-ex' as keywords for anchorY ([#193](https://github.com/protectwise/troika/issues/193)) ([c6a10ae](https://github.com/protectwise/troika/commit/c6a10ae30837d26505d5614b8e15ab49f2ad4625))
+
+
+
+
+
 ## [0.46.3](https://github.com/protectwise/troika/compare/v0.46.2...v0.46.3) (2022-03-11)
 
 **Note:** Version bump only for package troika-examples

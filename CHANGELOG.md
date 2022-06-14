@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.47.0](https://github.com/LearnHub/troika/compare/v0.46.3...v0.47.0) (2022-06-14)
+
+
+### Bug Fixes
+
+* **troika-three-text:** include lineGap value from the font in 'normal' line-height calculation ([c278118](https://github.com/LearnHub/troika/commit/c2781182ad897a444f9502031a9626b703e85050))
+* **troika-three-text:** update Typr to fix doubled kerning in some fonts ([#196](https://github.com/LearnHub/troika/issues/196)) ([1fab9a2](https://github.com/LearnHub/troika/commit/1fab9a2ce739a1f26c36b737a499075a439f8980))
+* **troika-three-text:** use sTypoAscender/Descender from OS/2 font table if available ([f5c244c](https://github.com/LearnHub/troika/commit/f5c244c92f9ede541b1206744aa1c7e1ff6711fc))
+
+
+### Features
+
+* **troika-three-text:** add 'top-cap' and 'top-ex' as keywords for anchorY ([#193](https://github.com/LearnHub/troika/issues/193)) ([c6a10ae](https://github.com/LearnHub/troika/commit/c6a10ae30837d26505d5614b8e15ab49f2ad4625))
+* **troika-three-text:** include capHeight and xHeight font metrics in textRenderInfo ([3459fd5](https://github.com/LearnHub/troika/commit/3459fd540925d7aebad48c70c28e1e0a9b4195f0))
+* **troika-three-text:** initial support for multiple font files split by unicode range - [#13](https://github.com/LearnHub/troika/issues/13) ([6a12fa4](https://github.com/LearnHub/troika/commit/6a12fa4130e810d3682f19c04a6d8964a29591b5)), closes [#65](https://github.com/LearnHub/troika/issues/65)
+* remove custom Thenable polyfill in favor of native promises ([7af402e](https://github.com/LearnHub/troika/commit/7af402e254675ca2fc182467a65d2d4f860845e4))
+* **troika-three-text:** remove long-deprecated `anchor` array property ([752e302](https://github.com/LearnHub/troika/commit/752e3025cec4176aadaab2a3ca475b3fd49d572e))
+
+
+
+
+
 ## [0.46.3](https://github.com/protectwise/troika/compare/v0.46.2...v0.46.3) (2022-03-11)
 
 
